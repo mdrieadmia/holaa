@@ -6,3 +6,12 @@
 .border-gradient {
     border: 1px linear-gradient(to bottom, #ffffff 27%, #ffffff 9%)
 }
+.home_text{
+    width: 0;
+    transition: 2s all linear;
+}
+
+.home:hover .home_text{
+    display: block;
+    width: auto;
+}
