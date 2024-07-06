@@ -15,6 +15,9 @@ export default {
         big: ["Big Shoulders Display", "sans-serif"],
         jost: ["Jost", "sans-serif"],
       },
+      borderImage: ()=> ({
+        'gradient-border': 'linear-gradient(to right, #ffffff 27%, #ffffff 9%)',
+      }),
     },
   },
   plugins: [],
