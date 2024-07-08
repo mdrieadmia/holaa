@@ -11,11 +11,14 @@ export default {
         customColor2: 'rgb(255, 41, 184)',
         customColor3: 'rgb(255, 88, 28)',
       },
+      backgroundImage: {
+        'custom-gradient': 'linear-gradient(to right, rgba(31, 31, 31, 0.5), rgb(31, 31, 31))',
+      },
       fontFamily: {
         big: ["Big Shoulders Display", "sans-serif"],
         jost: ["Jost", "sans-serif"],
       },
-      borderImage: ()=> ({
+      borderImage: () => ({
         'gradient-border': 'linear-gradient(to right, #ffffff 27%, #ffffff 9%)',
       }),
     },

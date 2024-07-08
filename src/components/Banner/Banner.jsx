@@ -6,10 +6,14 @@ import { PiFourKFill } from "react-icons/pi";
 import { IoPlayOutline } from "react-icons/io5";
 import { PiListPlus } from "react-icons/pi";
 import LeftSidebar from "../LeftSidebar/LeftSidebar";
+import RightContent from "../RightContent/RightContent";
 
 const Banner = () => {
     return (
-        <div className="bg-[url(/Background.png)] min-h-[1071px] max-w-[1920px] bg-no-repeat mx-auto bg-cover bg-left">
+        <div className="bg-[url(/Background.png)] min-h-[1071px] max-w-[1920px] bg-no-repeat mx-auto bg-cover bg-left relative">
+            <div className="absolute left-[50px] bottom-[83px]">
+                <RightContent />
+            </div>
             <div className="px-[60px] py-9 flex justify-between items-center">
                 <div className="flex gap-[35px]">
                     <div>
@@ -27,7 +31,7 @@ const Banner = () => {
                 </div>
             </div>
             <div className="flex justify-evenly">
-                <div className="flex justify-center pl-[580px] pt-[100px]">
+                <div className="flex justify-center pl-[780px] pt-[100px]">
                     <div className="max-w-[750px]">
                         <h1 className="text-[150px] text-white font-big font-black leading-[155px] uppercase">The Lord <span className="block">of The Rings</span></h1>
                         <div className="flex gap-[15px] pt-8">
